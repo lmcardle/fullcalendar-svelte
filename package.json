@@ -17,5 +17,10 @@
     "prettier-plugin-svelte": "^2.4.0",
     "svelte": "^3.42.6"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@fullcalendar/common": "^5.9.0",
+    "@fullcalendar/core": "^5.9.0",
+    "@fullcalendar/daygrid": "^5.9.0"
+  }
 }
