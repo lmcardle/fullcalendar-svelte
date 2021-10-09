@@ -14,6 +14,8 @@
 		dayMaxEvents: true,
 		eventClick: (eventInfo) => {
 			console.log('event clicked', eventInfo);
+			let title = prompt('new event name');
+			eventInfo.event.setProp('title', title);
 		},
 		events: [
 			{
